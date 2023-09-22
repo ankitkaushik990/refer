@@ -4,9 +4,12 @@ POST http://localhost:4001/user/signup
 Content-Type: application/json
 
 {
-  "name": "ankitkaushik",
-  "email": "ankit1kaushik@gmail.com",
-  "referralCode": "CAT01"
+  "name": "abc",
+  "email": "abc@gmail.com",
+  "password":"abc1234",
+  "referCode": "ABC",
+  "parentCode":"MANTT",
+  "role":"Admin"
 }
 
 ###
@@ -18,5 +21,14 @@ POST http://localhost:4001/user/id
 Content-Type: application/json
 
 {
-  "_id":"650d3f147e93037601dd1151"
+  "_id":"650d5775433c009f6b743885"
+}
+
+###
+POST http://localhost:4001/user/set
+Content-Type: application/json
+
+{
+  "_id":"650d515c06881e533d9652f0",
+  "parentCode":"ABCD"
 }
