@@ -1,0 +1,22 @@
+@baseUrl=http://localhost:4001
+
+POST http://localhost:4001/user/signup
+Content-Type: application/json
+
+{
+  "name": "ankitkaushik",
+  "email": "ankit1kaushik@gmail.com",
+  "referralCode": "CAT01"
+}
+
+###
+
+GET http://localhost:4001/user/all
+
+###
+POST http://localhost:4001/user/id
+Content-Type: application/json
+
+{
+  "_id":"650d3f147e93037601dd1151"
+}
